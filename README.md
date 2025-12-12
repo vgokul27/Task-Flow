@@ -35,32 +35,7 @@ A full-stack task management application with JWT authentication, built with Rea
 - Express Validator (validation)
 - Helmet (security)
 
-## 📁 Project Structure
 
-TaskFlow/
-├── frontend/ # React application
-│ ├── src/
-│ │ ├── components/ # Reusable components
-│ │ │ ├── auth/ # Authentication components
-│ │ │ ├── common/ # Shared UI components
-│ │ │ ├── dashboard/ # Dashboard components
-│ │ │ ├── layout/ # Layout components
-│ │ │ └── profile/ # Profile components
-│ │ ├── pages/ # Page components
-│ │ ├── context/ # React Context
-│ │ ├── hooks/ # Custom hooks
-│ │ ├── routes/ # Route guards
-│ │ └── utils/ # Utilities & API
-│ └── package.json
-├── backend/ # Node.js API
-│ ├── config/ # Configuration files
-│ ├── controllers/ # Route controllers
-│ ├── middleware/ # Custom middleware
-│ ├── models/ # MongoDB models
-│ ├── routes/ # API routes
-│ ├── utils/ # Utility functions
-│ └── server.js # Entry point
-└── README.md
 
 ## 🚀 Installation & Setup
 
